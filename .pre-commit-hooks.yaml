@@ -1,7 +1,8 @@
 ---
 - id: unmake
   name: unmake
-  description: Validate your Makefile with unmake (require unmake)
+  description: Validate your Makefile with unmake
   entry: unmake
-  language: script
+  language: rust
+  additional_dependencies: ["cli:unmake:0.0.17"]
   files: Makefile
