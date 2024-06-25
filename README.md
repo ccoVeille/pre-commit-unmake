@@ -12,10 +12,20 @@ For more detail about pre-commit project on the [official website](https://pre-c
 
 Add this to your `.pre-commit-config.yaml`
 
+```yaml
     - repo: https://github.com/ccoVeille/pre-commit-unmake
       rev: v1.0.0
       hooks:
         - id: unmake
+```
+
+Then use
+
+```console
+$ pre-commit autoupdate
+```
+
+For more information about pre-commit configuration, please refer to the [official documentation](https://pre-commit.com/index.html#pre-commit-configyaml---repos).
 
 ## Motivation
 
