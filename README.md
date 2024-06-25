@@ -1,5 +1,7 @@
 # pre-commit-unmake
 
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+
 This repository brings [unmake](https://github.com/mcandre/unmake) hook for [pre-commit](https://github.com/pre-commit/pre-commit)
 
 `unmake` is a `Makefile` files linter. It helps to spot errors in these files.
@@ -13,10 +15,10 @@ For more detail about pre-commit project on the [official website](https://pre-c
 Add this to your `.pre-commit-config.yaml`
 
 ```yaml
-    - repo: https://github.com/ccoVeille/pre-commit-unmake
-      rev: v1.0.0
-      hooks:
-        - id: unmake
+  - repo: https://github.com/ccoVeille/pre-commit-unmake
+    rev: v1.0.1
+    hooks:
+      - id: unmake
 ```
 
 Then use
