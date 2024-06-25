@@ -1,7 +1,7 @@
+---
 - id: unmake
   name: unmake
-  description: Validate your Makefile with unmake
+  description: Validate your Makefile with unmake (require unmake)
   entry: unmake
-  language: rust
   language: script
   files: Makefile
