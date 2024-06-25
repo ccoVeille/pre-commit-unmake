@@ -16,7 +16,7 @@ Add this to your `.pre-commit-config.yaml`
 
 ```yaml
   - repo: https://github.com/ccoVeille/pre-commit-unmake
-    rev: v1.0.1
+    rev: v1.0.3
     hooks:
       - id: unmake
 ```
